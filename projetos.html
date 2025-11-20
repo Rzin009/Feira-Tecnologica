@@ -26,15 +26,24 @@
 }
 
     .card img { 
-    height: 180px; 
+    height: 200px; 
     object-fit: cover; 
+    border: none;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
      footer {
      background: linear-gradient(90deg, #007bff, #00bcd4);
      color: #ccc;
      text-align: center;
      padding: 2rem 1rem;
-     margin-top: 10%;
+     margin-top: 25%;
     }
 
   </style>
@@ -94,3 +103,4 @@
   </footer>
 </body>
 </html>
+
